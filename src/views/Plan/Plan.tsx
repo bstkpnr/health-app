@@ -7,7 +7,6 @@ import PlanList from './PlanList/PlanList';
 import {Checkbox} from 'react-native-paper';
 import CustomButton from '../../components/button/CustomButton';
 import {NavigationProp, useNavigation} from '@react-navigation/native';
-import Payment from '../Payment/Payment';
 
 type RootStackParamList = {
   Plan: undefined;

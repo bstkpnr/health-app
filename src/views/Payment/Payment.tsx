@@ -7,11 +7,13 @@ import Card from '../../assets/svg/card.svg';
 import MasterCard from '../../assets/svg/Mastercard.svg';
 import Error from './Error/Error';
 import CustomButton from '../../components/button/CustomButton';
+
 const Payment: React.FC = () => {
+  
   return (
     <ScrollView>
-    <Header title="Payment" />
-      <View style={{ padding: 10,flex:1}}>
+      <Header title="Payment" />
+      <View style={{padding: 10, flex: 1}}>
         <CustomHeaderCard title="Starter" />
         <View style={styles.textContainer}>
           <Text style={styles.text}>Kronik Hastalık</Text>
@@ -25,7 +27,15 @@ const Payment: React.FC = () => {
           </View>
         </View>
         <View style={{bottom: 180}}>
-          <Text style={{margin:5,color:'#002855',fontSize:14,fontWeight:'600'}}>Credit Card Details</Text>
+          <Text
+            style={{
+              margin: 5,
+              color: '#002855',
+              fontSize: 14,
+              fontWeight: '600',
+            }}>
+            Credit Card Details
+          </Text>
           <View style={styles.cardContainer}>
             <View style={styles.iconTextContainer}>
               <Card width={24} height={24} />
@@ -40,8 +50,7 @@ const Payment: React.FC = () => {
               flexDirection: 'row',
               width: '100%',
               top: 10,
-              justifyContent:'space-between'
-              
+              justifyContent: 'space-between',
             }}>
             <View style={styles.excardContainer}>
               <Text style={styles.cardText}>Expiation date</Text>
@@ -54,13 +63,15 @@ const Payment: React.FC = () => {
             <Text style={styles.cardText}>Cardholder name</Text>
           </View>
         </View>
-        <View style={{bottom:130}}>
-
-        <Error />
+        <View style={{bottom: 130}}>
+          <Error />
         </View>
-        <CustomButton text='Buy' buttonStyle={{backgroundColor:'#002855',bottom:90}} />
+        <CustomButton
+          text="Buy"
+          buttonStyle={{backgroundColor: '#002855', bottom: 90}}
+        />
       </View>
-      </ScrollView>
+    </ScrollView>
   );
 };
 

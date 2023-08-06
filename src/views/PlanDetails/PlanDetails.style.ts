@@ -48,8 +48,7 @@ export default StyleSheet.create({
     marginLeft: 8,
     flexShrink: 1,
     color: '#6B7280',
-fontSize: 12
-
+    fontSize: 12,
   },
   cardsContainer: {
     flexDirection: 'row',
@@ -62,7 +61,7 @@ fontSize: 12
   rightCards: {
     flex: 0.48,
   },
-  highlightedCard: {
+  othercolumnCard: {
     flexDirection: 'column',
     alignItems: 'flex-start',
     backgroundColor: 'white',
@@ -78,7 +77,7 @@ fontSize: 12
     shadowRadius: 2.62,
     marginBottom: 20,
   },
-  highlightedImageContainer: {
+  othercolumnCardImageContainer: {
     height: 36,
     width: 36,
     borderRadius: 50,
@@ -87,28 +86,26 @@ fontSize: 12
     alignItems: 'center',
     marginBottom: 10,
   },
-  highlightedCardContent: {
+  othercolumnCardContent: {
     flexDirection: 'column',
     top: 10,
-   
   },
-  cardText:{
-    color:'#002855',
-    fontWeight:'600',
-    fontSize:12,
-
-  },
-  totalText:{
-    color: '#111827',
-fontSize: 16,
-fontWeight:'600',
-marginLeft:5
-  },
-  percentText:{
+  cardText: {
     color: '#002855',
-fontSize: 12,
-fontWeight:'700',
-marginLeft:20,
-bottom:8
-  }
+    fontWeight: '600',
+    fontSize: 12,
+  },
+  totalText: {
+    color: '#111827',
+    fontSize: 16,
+    fontWeight: '600',
+    marginLeft: 5,
+  },
+  percentText: {
+    color: '#002855',
+    fontSize: 12,
+    fontWeight: '700',
+    marginLeft: 20,
+    bottom: 8,
+  },
 });

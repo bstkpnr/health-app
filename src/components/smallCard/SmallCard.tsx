@@ -1,13 +1,12 @@
 import React from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, Image} from 'react-native';
 import styles from './SmallCard.style';
+
 interface CardProps {
   number: string;
   text: string;
   icon: any;
   iconBackgroundColor?: string;
-
-
 }
 
 const SmallCardComponent: React.FC<CardProps> = ({

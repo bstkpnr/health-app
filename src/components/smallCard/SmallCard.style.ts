@@ -5,7 +5,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding:10,
+    padding: 10,
     backgroundColor: 'white',
     borderRadius: 10,
     elevation: 2,
@@ -16,8 +16,7 @@ export default StyleSheet.create({
     },
     shadowOpacity: 0.23,
     shadowRadius: 2.62,
-    marginBottom: 10
-    
+    marginBottom: 10,
   },
   leftContainer: {
     alignItems: 'flex-start',
@@ -25,16 +24,13 @@ export default StyleSheet.create({
   numberStyle: {
     fontSize: 24,
     fontWeight: '600',
-    color:'#002855',
-
-    
+    color: '#002855',
   },
   textStyle: {
     marginTop: 5,
-    color:'#002855',
-    fontSize:12,
-    fontWeight:'500',
-
+    color: '#002855',
+    fontSize: 12,
+    fontWeight: '500',
   },
   iconStyle: {
     width: 16,
@@ -46,6 +42,5 @@ export default StyleSheet.create({
     borderRadius: 18,
     justifyContent: 'center',
     alignItems: 'center',
-    
   },
 });

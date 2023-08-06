@@ -7,14 +7,11 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 12,
     overflow: 'hidden',
-    flex:1
-
-
+    flex: 1,
   },
   line: {
     height: 1,
     backgroundColor: '#ECECEC',
     marginVertical: 10,
-    
-}
+  },
 });

@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  outerContainer: {
+  mainContainer: {
     padding: 16,
     backgroundColor: '#FFF8F8',
     borderRadius: 18,
@@ -12,7 +12,7 @@ export default StyleSheet.create({
     shadowOpacity: 1,
     shadowRadius: 1,
     elevation: 1,
-    flexDirection:'row'
+    flexDirection: 'row',
   },
 
   alertIconContainer: {
@@ -28,7 +28,6 @@ export default StyleSheet.create({
     color: 'white',
     fontSize: 15,
     fontWeight: '600',
-
   },
 
   container: {
@@ -42,13 +41,11 @@ export default StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     letterSpacing: 0.1,
-
   },
   subtitle: {
     width: 255,
     color: '#79170A',
     fontSize: 12,
     fontWeight: '500',
-
   },
 });

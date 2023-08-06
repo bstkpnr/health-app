@@ -8,8 +8,6 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 12,
     overflow: 'hidden',
-    
-
   },
   orangeCircle: {
     width: 157,
@@ -18,7 +16,7 @@ export default StyleSheet.create({
     position: 'absolute',
     borderRadius: 9999,
   },
-  startText:{
+  startText: {
     left: 292,
     top: 24,
     position: 'absolute',
@@ -26,6 +24,5 @@ export default StyleSheet.create({
     color: 'white',
     fontSize: 18,
     fontWeight: '600',
-
-  }
+  },
 });
