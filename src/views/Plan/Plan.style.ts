@@ -16,7 +16,8 @@ export default StyleSheet.create({
         height:53,
         borderRadius:8,
         borderColor:'transparent',
-        bottom:5
+        bottom:5,
+
        
         
     },
@@ -27,7 +28,8 @@ export default StyleSheet.create({
         fontWeight:'600',
         fontStyle:'normal',
         padding:17,
-        lineHeight:18
+        lineHeight:18,
+
 
       
     },
@@ -38,7 +40,8 @@ export default StyleSheet.create({
         height:53,
         borderRadius:8,
         borderColor:'transparent',
-        top:5
+        top:5,
+
        
         
     },
@@ -49,7 +52,8 @@ export default StyleSheet.create({
         fontWeight:'600',
         fontStyle:'normal',
         padding:17,
-        lineHeight:18
+        lineHeight:18,
+
 
       
     },
@@ -66,7 +70,8 @@ padding:10    },
         color:'#002855',
         fontSize:16,
         fontWeight:'600',
-        padding:5
+        padding:5,
+
         
     },
     desc:{
@@ -74,7 +79,8 @@ padding:10    },
         fontSize:16,
         fontStyle:'normal',
         fontWeight:'500',
-        padding:5
+        padding:5,
+
     },
     termContainer:{
         flexDirection: 'row',

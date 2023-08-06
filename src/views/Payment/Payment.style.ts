@@ -15,6 +15,7 @@ export default StyleSheet.create({
         fontStyle:'normal',
         fontWeight:'600',
         color:'#002855',
+
         
     },
     montTextContainer:{
@@ -36,7 +37,8 @@ export default StyleSheet.create({
         fontWeight:'600',
         fontStyle:'normal',
         padding:17,
-        lineHeight:18
+        lineHeight:18,
+
 
       
     },
@@ -53,7 +55,8 @@ export default StyleSheet.create({
         color:'#002855',
         fontWeight:'600',
         fontStyle:'normal',
-        alignSelf:'center'
+        alignSelf:'center',
+
         
     },
     cardContainer:{
@@ -73,7 +76,8 @@ export default StyleSheet.create({
         color:'#6B7280',
         fontSize:16,
         fontWeight:'500',
-        marginLeft:5
+        marginLeft:5,
+
 
     },
     masterCardIcon:{

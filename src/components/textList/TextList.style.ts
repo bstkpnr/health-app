@@ -11,14 +11,16 @@ export default StyleSheet.create({
     nameText:{
         color:'#002855',
         fontSize:14,
-        fontWeight:'600',
-        fontStyle:'normal'
+        fontWeight:'700',
+        fontStyle:'normal',
+
 
     },
     valueText:{
         color:'#6B7280',
         fontSize:14,
-        fontWeight:'400'
+        fontWeight:'400',
+
     }
 
 

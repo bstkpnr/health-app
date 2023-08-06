@@ -11,6 +11,7 @@ import { NavigationProp } from '@react-navigation/native';
 type RootStackParamList = {
   Plan: undefined;
   Screen1: undefined;
+  PlanDetails:undefined
 };
 
 type Navigation = NavigationProp<RootStackParamList>;

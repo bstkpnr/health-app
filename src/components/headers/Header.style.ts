@@ -3,7 +3,6 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
   container: {
     backgroundColor: 'white',
-    flex:1,
     height:60
 
   },
@@ -12,6 +11,7 @@ export default StyleSheet.create({
     fontSize: 18,
     fontWeight: '600',
     textAlign: 'center',
+
     
   },
   iconContainer: {

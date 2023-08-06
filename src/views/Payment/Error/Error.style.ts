@@ -28,6 +28,7 @@ export default StyleSheet.create({
     color: 'white',
     fontSize: 15,
     fontWeight: '600',
+
   },
 
   container: {
@@ -41,11 +42,13 @@ export default StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     letterSpacing: 0.1,
+
   },
   subtitle: {
     width: 255,
     color: '#79170A',
     fontSize: 12,
     fontWeight: '500',
+
   },
 });

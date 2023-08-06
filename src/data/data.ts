@@ -28,7 +28,7 @@ export const data=[
         icon:require('../assets/img/HealthPackage.png'),
         name:'Integro Kapsamlı Plan',
         arrowsIcon:require('../assets/img/Arrows.png'),
-        route:'Screen1'
+        route:'PlanDetails'
 
     },
     {

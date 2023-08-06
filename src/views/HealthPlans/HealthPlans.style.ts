@@ -21,6 +21,7 @@ export default StyleSheet.create({
     fontSize: 16,
     fontWeight: '500',
     marginLeft:10,
+
     
     
   },
