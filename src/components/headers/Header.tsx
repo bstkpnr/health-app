@@ -4,6 +4,7 @@ import Group from '../../assets/svg/Group.svg';
 import styles from './Header.style';
 import {useNavigation} from '@react-navigation/native';
 
+
 interface Props {
   title: string;
 }
